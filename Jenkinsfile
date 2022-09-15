@@ -6,9 +6,6 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh '''
-                    rm -rf node_modules/
-                    rm -rf package-lock.json
-
                     npm install
                 '''
             }
