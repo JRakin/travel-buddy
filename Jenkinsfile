@@ -10,8 +10,6 @@ pipeline {
                     rm -rf package-lock.json
 
                     npm install --legacy-peer-deps
-
-                    npm run build
                 '''
             }
             post {
