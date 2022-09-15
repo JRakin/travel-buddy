@@ -9,7 +9,7 @@ pipeline {
                     rm -rf node_modules/
                     rm -rf package-lock.json
 
-                    npm install --legacy-peer-deps
+                    npm install
                 '''
             }
             post {
